@@ -1,0 +1,128 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: #09e04d;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+/* Navigation - Sticky & Centered */
+nav {
+    background: #2c3e50;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #3498db;
+
+}
+
+/* Main Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* PVC Information Section */
+.pvc-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.pvc-info img {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+.pvc-info .text {
+    width: 55%;
+    text-align: left;
+}
+
+/* PDF Section */
+.pdf-section {
+    text-align: center;
+    padding: 20px;
+}
+.pdf-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #3498db;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+.pdf-button:hover {
+    background: #2c3e50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #487aac;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .pvc-info {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pvc-info img {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    .pvc-info .text {
+        width: 100%;
+    }
+}

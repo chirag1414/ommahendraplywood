@@ -1,0 +1,150 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #2c3e50;
+    color: #ededeb;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 34px;
+    color: #f8e406; /* Blue Color for Heading */
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+    border-radius: 5px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #ecf0f1;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Plywood Types List */
+.plywood-type {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    
+}
+
+.plywood-type:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Styling */
+.plywood-type img {
+    width: 100%;  /* Make it responsive */
+    max-width: 150px; /* Prevents overly large images */
+    height: 200px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.plywood-type h3 {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.plywood-type p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.plywood-type ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.plywood-type ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0; 
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .plywood-grid {
+        grid-template-columns: 1fr;
+    }
+}
