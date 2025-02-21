@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    
+}
+
+nav ul li a:hover {
+    color: #426edd;
+    border-radius: 5px;
+}
+/* Heading */
+h2 {
+    color: #2c3e50;
+    text-align: center;
+
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+button:hover {
+    background: #2c3e50;
+}
+
+/* Social Media Links */
+.social-media {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #3498db;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+.social-media a:hover {
+    color: #2c3e50;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #5a81a8;
+    color: white;
+    margin-top: 20px;
+}
